@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index_page</title>
+  </head>
+  <body>
+    <script>
+      // ----task 1----
+      let dateOfBirth = 2005;
+      document.write("მე დავიბადე" + " " + dateOfBirth + " " + "წელს" + "<br>");
+
+      // ----task 2----
+      let myNoun = "ძაღლი";
+      let myAdjective = "დიდი";
+      let myVerb = "გაიქცა";
+      let myAdverb = "სწრაფად";
+      document.write(
+        myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "<br>"
+      );
+
+      // ----task 3----
+      let color = `red`;
+      let inputColor = prompt("შეიყვანეთ ფერი");
+      if (inputColor === color) {
+        console.log(color + " " + `არის ჩემი საყვარელი ფერი`);
+      } else {
+        console.log(inputColor + " " + `არ მომწონს`);
+      }
+
+      // ----task 4----
+      let number = prompt("შეიყვანეთ რიცხვი");
+      if (number % 2 === 0) {
+        console.log("არჩეული  რიცხვი ლუწია");
+      } else {
+        console.log("არჩეული რიცხვი კენტია");
+      }
+
+      // ----task 5----
+      let age = prompt("შეიყვანეთ თქვენი ასაკი");
+      if (age >= 18) {
+        document.write("თქვენ ხართ სრულწლოვანი");
+      } else {
+        document.write("თქვენ არ ხართ სრულწლოვანი");
+      }
+    </script>
+  </body>
+</html>
